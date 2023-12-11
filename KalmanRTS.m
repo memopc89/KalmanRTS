@@ -1,6 +1,6 @@
 function [coordKF, coordRTS] = KalmanRTS(c, R, a, dt)
 % By Guillermo Pérez Castro (2020), use Matlab 2020 or earlier
-% Position smoothing algorithm for bicycle trajectories based on manually tracked position measurements (x, y, z) 
+% Position smoothing algorithm for bicycle trajectories based on tracked position measurements (x, y, z) 
 % Method: Kalman Filter (KF) and the Rauch, Tung and Striebel smoother algorithm (RTS)
 %   INPUT:
 %   - c        :   measurement matrix [coord_x coord_y coord_z] (m)
